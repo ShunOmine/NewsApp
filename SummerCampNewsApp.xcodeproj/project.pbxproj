@@ -3,25 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2A83D8DA22F69B7B006B5AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83D8D922F69B7B006B5AEB /* AppDelegate.swift */; };
-		2A83D8DC22F69B7B006B5AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83D8DB22F69B7B006B5AEB /* ViewController.swift */; };
+		2A83D8DC22F69B7B006B5AEB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83D8DB22F69B7B006B5AEB /* MainViewController.swift */; };
 		2A83D8DF22F69B7B006B5AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A83D8DD22F69B7B006B5AEB /* Main.storyboard */; };
 		2A83D8E122F69B7B006B5AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A83D8E022F69B7B006B5AEB /* Assets.xcassets */; };
 		2A83D8E422F69B7B006B5AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A83D8E222F69B7B006B5AEB /* LaunchScreen.storyboard */; };
+		2A83D8EC22F69E95006B5AEB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83D8EB22F69E95006B5AEB /* FirstViewController.swift */; };
+		2A83D8EE22F69F15006B5AEB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83D8ED22F69F15006B5AEB /* SecondViewController.swift */; };
+		2A83D8F022F69F81006B5AEB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83D8EF22F69F81006B5AEB /* ThirdViewController.swift */; };
+		2A83D8F222F69FCE006B5AEB /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83D8F122F69FCE006B5AEB /* FourthViewController.swift */; };
+		2A83D8F422F6A022006B5AEB /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83D8F322F6A022006B5AEB /* FifthViewController.swift */; };
+		2A83D8F622F6B2AC006B5AEB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A83D8F522F6B2AB006B5AEB /* WebKit.framework */; };
+		C398F9426F8CAF4897C8B0E9 /* Pods_SummerCampNewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251E314F97E4B606EC279978 /* Pods_SummerCampNewsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19BE1F3801EA3B4CE8E9B459 /* Pods-SummerCampNewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummerCampNewsApp.release.xcconfig"; path = "Target Support Files/Pods-SummerCampNewsApp/Pods-SummerCampNewsApp.release.xcconfig"; sourceTree = "<group>"; };
+		251E314F97E4B606EC279978 /* Pods_SummerCampNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SummerCampNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A83D8D622F69B7B006B5AEB /* SummerCampNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerCampNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A83D8D922F69B7B006B5AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A83D8DB22F69B7B006B5AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A83D8DB22F69B7B006B5AEB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2A83D8DE22F69B7B006B5AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A83D8E022F69B7B006B5AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A83D8E322F69B7B006B5AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A83D8E522F69B7B006B5AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A83D8EB22F69E95006B5AEB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2A83D8ED22F69F15006B5AEB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2A83D8EF22F69F81006B5AEB /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		2A83D8F122F69FCE006B5AEB /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		2A83D8F322F6A022006B5AEB /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		2A83D8F522F6B2AB006B5AEB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F233B54F74A5FCBB09781902 /* Pods-SummerCampNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummerCampNewsApp.debug.xcconfig"; path = "Target Support Files/Pods-SummerCampNewsApp/Pods-SummerCampNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A83D8F622F6B2AC006B5AEB /* WebKit.framework in Frameworks */,
+				C398F9426F8CAF4897C8B0E9 /* Pods_SummerCampNewsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,8 @@
 			children = (
 				2A83D8D822F69B7B006B5AEB /* SummerCampNewsApp */,
 				2A83D8D722F69B7B006B5AEB /* Products */,
+				FD381E5984C7AC6A4C525928 /* Pods */,
+				C08145A60314D1BF087D0915 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +75,36 @@
 			isa = PBXGroup;
 			children = (
 				2A83D8D922F69B7B006B5AEB /* AppDelegate.swift */,
-				2A83D8DB22F69B7B006B5AEB /* ViewController.swift */,
+				2A83D8DB22F69B7B006B5AEB /* MainViewController.swift */,
+				2A83D8F322F6A022006B5AEB /* FifthViewController.swift */,
+				2A83D8F122F69FCE006B5AEB /* FourthViewController.swift */,
+				2A83D8EF22F69F81006B5AEB /* ThirdViewController.swift */,
+				2A83D8EB22F69E95006B5AEB /* FirstViewController.swift */,
+				2A83D8ED22F69F15006B5AEB /* SecondViewController.swift */,
 				2A83D8DD22F69B7B006B5AEB /* Main.storyboard */,
 				2A83D8E022F69B7B006B5AEB /* Assets.xcassets */,
 				2A83D8E222F69B7B006B5AEB /* LaunchScreen.storyboard */,
 				2A83D8E522F69B7B006B5AEB /* Info.plist */,
 			);
 			path = SummerCampNewsApp;
+			sourceTree = "<group>";
+		};
+		C08145A60314D1BF087D0915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A83D8F522F6B2AB006B5AEB /* WebKit.framework */,
+				251E314F97E4B606EC279978 /* Pods_SummerCampNewsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD381E5984C7AC6A4C525928 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F233B54F74A5FCBB09781902 /* Pods-SummerCampNewsApp.debug.xcconfig */,
+				19BE1F3801EA3B4CE8E9B459 /* Pods-SummerCampNewsApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +114,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A83D8E822F69B7B006B5AEB /* Build configuration list for PBXNativeTarget "SummerCampNewsApp" */;
 			buildPhases = (
+				E4AA8452D8F2D88BD25EC4EA /* [CP] Check Pods Manifest.lock */,
 				2A83D8D222F69B7B006B5AEB /* Sources */,
 				2A83D8D322F69B7B006B5AEB /* Frameworks */,
 				2A83D8D422F69B7B006B5AEB /* Resources */,
+				7B9F6302DD768F5B995FD784 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +175,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B9F6302DD768F5B995FD784 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SummerCampNewsApp/Pods-SummerCampNewsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SummerCampNewsApp/Pods-SummerCampNewsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SummerCampNewsApp/Pods-SummerCampNewsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4AA8452D8F2D88BD25EC4EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SummerCampNewsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A83D8D222F69B7B006B5AEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A83D8DC22F69B7B006B5AEB /* ViewController.swift in Sources */,
+				2A83D8F222F69FCE006B5AEB /* FourthViewController.swift in Sources */,
+				2A83D8EE22F69F15006B5AEB /* SecondViewController.swift in Sources */,
+				2A83D8EC22F69E95006B5AEB /* FirstViewController.swift in Sources */,
+				2A83D8F022F69F81006B5AEB /* ThirdViewController.swift in Sources */,
+				2A83D8DC22F69B7B006B5AEB /* MainViewController.swift in Sources */,
 				2A83D8DA22F69B7B006B5AEB /* AppDelegate.swift in Sources */,
+				2A83D8F422F6A022006B5AEB /* FifthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +372,11 @@
 		};
 		2A83D8E922F69B7B006B5AEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F233B54F74A5FCBB09781902 /* Pods-SummerCampNewsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NY67MN435F;
 				INFOPLIST_FILE = SummerCampNewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +391,11 @@
 		};
 		2A83D8EA22F69B7B006B5AEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BE1F3801EA3B4CE8E9B459 /* Pods-SummerCampNewsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NY67MN435F;
 				INFOPLIST_FILE = SummerCampNewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

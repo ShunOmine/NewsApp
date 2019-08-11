@@ -38,7 +38,7 @@ class FirstViewController: UIViewController, IndicatorInfoProvider, UITableViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.toolBar.isHidden = false
+        self.toolBar.isHidden = true
         self.webView.isHidden = true
         
         webView.navigationDelegate = self

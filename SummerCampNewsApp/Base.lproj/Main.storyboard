@@ -82,13 +82,29 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9zD-AM-OuT">
                                 <rect key="frame" x="0.0" y="729" width="375" height="49"/>
                                 <items>
-                                    <barButtonItem systemItem="cancel" id="0Ku-Cl-KUU"/>
+                                    <barButtonItem systemItem="cancel" id="0Ku-Cl-KUU">
+                                        <connections>
+                                            <action selector="cancel:" destination="U76-go-FDb" id="uzS-yr-Gig"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem width="75" style="plain" systemItem="fixedSpace" id="hd0-ow-66A"/>
-                                    <barButtonItem title="←" id="dKh-Ep-ASX"/>
+                                    <barButtonItem title="←" id="dKh-Ep-ASX">
+                                        <connections>
+                                            <action selector="backPage:" destination="U76-go-FDb" id="xps-2b-EmR"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem width="59" style="plain" systemItem="fixedSpace" id="nof-Hq-tZV"/>
-                                    <barButtonItem title="→" id="mVy-Wu-R3V"/>
+                                    <barButtonItem title="→" id="mVy-Wu-R3V">
+                                        <connections>
+                                            <action selector="nextPage:" destination="U76-go-FDb" id="I9w-qa-oAf"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem width="65" style="plain" systemItem="fixedSpace" id="6Cm-0B-zRW"/>
-                                    <barButtonItem systemItem="refresh" id="ftu-Ba-xeO"/>
+                                    <barButtonItem systemItem="refresh" id="ftu-Ba-xeO">
+                                        <connections>
+                                            <action selector="refreshPage:" destination="U76-go-FDb" id="fu1-Ua-BBx"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
